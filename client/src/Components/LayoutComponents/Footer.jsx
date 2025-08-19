@@ -2,6 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineLocationOn } from "react-icons/md";
+import { BiLogoPlayStore } from "react-icons/bi";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { LiaAppStoreIos } from "react-icons/lia";
+
+
 
 
 const Footer = () => {
@@ -101,10 +109,85 @@ const Footer = () => {
                     </div>
 
                 </div>
-
-
-
             </div >
+
+
+            <div className=' mt-[79px] border border-[#838383] w-full'></div>
+
+            <div className=' mt-4 grid grid-cols-4 place-items-center lg:justify-items-start text-[#838383]'>
+
+                <div className=' col-span-1 text-[12px] font-[400]'>Experience Star Tech App on your mobile:
+                </div>
+
+                <div className='col-span-2 grid grid-cols-2 gap-x-6'>
+
+                    <Link>
+                        <div className='border w-[154px] rounded-[10px] px-2 py-2'>
+                            <div className='flex gap-x-3'>
+                                <BiLogoPlayStore className='text-[34px] text-white' />
+
+                                <div>
+                                    <p className='text-[10px] font-[400] text-[#838383]' >Download on </p>
+                                    <h3 className='text-[14px] font-[400] text-white'>Google Play</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+
+                    <Link>
+                        <div className='border w-[154px] rounded-[10px] px-2 py-2'>
+                            <div className='flex gap-x-3'>
+                                <LiaAppStoreIos className='text-[34px] text-white' />
+
+                                <div>
+                                    <p className='text-[10px] font-[400] text-[#838383]' >Download on </p>
+                                    <h3 className='text-[14px] font-[400] text-white'>App Store</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+
+                </div>
+
+                <div className='col-span-1 flex gap-x-5'>
+
+                    <Link>
+                        <div className='w-[45px] h-[45px] rounded-[50%] bg-[#212D37] flex items-center justify-center'>
+                            <FaWhatsapp className='text-white font-bold text-[23px] ' />
+                        </div>
+                    </Link>
+
+                    <Link>
+                        <div className='w-[45px] h-[45px] rounded-[50%] bg-[#212D37] flex items-center justify-center'>
+                            <FaFacebook className='text-white font-bold text-[23px] ' />
+                        </div>
+                    </Link>
+
+                    <Link>
+                        <div className='w-[45px] h-[45px] rounded-[50%] bg-[#212D37] flex items-center justify-center'>
+                            <FaYoutube className='text-white font-bold text-[23px] ' />
+                        </div>
+                    </Link>
+
+                    <Link>
+                        <div className='w-[45px] h-[45px] rounded-[50%] bg-[#212D37] flex items-center justify-center'>
+                            <FaInstagramSquare className='text-white font-bold text-[23px] ' />
+                        </div>
+                    </Link>
+
+                </div>
+
+            </div>
+
+
+            <div className='mt-[30px]  border border-[#838383] w-full'></div>
+
+            <div className='mt-7'>
+                <div className='flex justify-between'>
+                    <p className='text-[#838383]'>&copy; 2025 Star Tech Ltd | All rights reserved</p>
+                    <p className='text-[#838383]'>Powered By: Star Tech</p>
+                </div>
+            </div>
 
         </>
 
