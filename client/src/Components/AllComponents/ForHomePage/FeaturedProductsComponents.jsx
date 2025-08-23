@@ -136,8 +136,6 @@ const FeaturedProductsComponents = () => {
                                     </div>
 
 
-
-
                                 </CardFooter>
                             </Card>
 

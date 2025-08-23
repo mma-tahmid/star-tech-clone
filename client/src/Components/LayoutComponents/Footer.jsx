@@ -17,14 +17,14 @@ const Footer = () => {
     return (
 
         <>
-            <div className='grid grid-cols-4 gap-x-10 justify-items-center lg:justify-items-start'>
+            <div className='grid grid-cols-1 md:grid-cols-4 gap-x-10 justify-items-center lg:justify-items-start'>
 
                 {/* 1st Part */}
 
                 <div className='col-span-1'>
 
                     <div>
-                        <h2 className=' text-[20px] font-[400] text-white'>Support</h2>
+                        <h2 className=' text-[20px] font-[400] text-center md:text-left text-white'>Support</h2>
 
                         {/* 1st Item */}
 
@@ -75,7 +75,7 @@ const Footer = () => {
                 {/* 2nd Part */}
 
                 <div className='col-span-2'>
-                    <h2 className=' text-[20px] font-[400] text-white'>About Us</h2>
+                    <h2 className=' text-[20px] font-[400] text-center md:text-left mt-6 md:mt-0 text-white'>About Us</h2>
                     {/* grid grid-cols-3  gap-x-1 */}
                     <ul className="columns-3 mt-4 space-y-4 text-[#838383] text-[14px]">
                         <li><Link>Affiliate Program</Link></li>
@@ -98,10 +98,10 @@ const Footer = () => {
                 {/* 3rd Part */}
 
                 <div className='col-span-1'>
-                    <h2 className=' text-[20px] font-[400] text-white'>Stay Connected</h2>
+                    <h2 className=' text-[20px] font-[400] text-white text-center md:text-left mt-6 md:mt-0'>Stay Connected</h2>
 
                     <div className='mt-4'>
-                        <h3 className='text-white'>Star Tech Ltd</h3>
+                        <h3 className='text-white text-center md:text-left'>Star Tech Ltd</h3>
                         <p className='text-[#838383] mt-4'>Head Office: 28 Kazi Nazrul Islam Ave,Navana Zohura Square, Dhaka 1000</p>
 
                         <p className='mt-3'><span className='text-[#838383]'>Email: </span>
@@ -114,7 +114,7 @@ const Footer = () => {
 
             <div className=' mt-[79px] border border-[#838383] w-full'></div>
 
-            <div className=' mt-4 grid grid-cols-4 place-items-center lg:justify-items-start text-[#838383]'>
+            <div className=' mt-4 grid grid-flow-row gap-x-5 gap-y-5 lg:gap-x-0 lg:gap-y-0  lg:grid-flow-col grid-cols-1 lg:grid-cols-4 place-items-center lg:justify-items-start text-[#838383]'>
 
                 <div className=' col-span-1 text-[12px] font-[400]'>Experience Star Tech App on your mobile:
                 </div>
